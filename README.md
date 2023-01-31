@@ -1,3 +1,8 @@
+Le but de ce TP est de mettre en pratique les différentes connaissances acquises durant les séances de TD et TP.
+Le lien du github est : git@github.com:Aiduknow/jazz-poo.git
+
+Réponses aux différenets questions : 
+
 ETAPE 5:
 1) Spring Web : est une partie du framework Spring qui permet de créer des applications web basées sur Java.
    Il fournit des outils pour gérer les requêtes HTTP, les routes, les contrôleurs, les modèles de vue et les formulaires.
@@ -43,13 +48,16 @@ $nomTemplate dans : <p th:text="'Bonjour ' + ${nomTemplate} + ' !'" />
 
 ETAPE 17 : 
 Nous pouvons remarquer qu'il y a apparition d'une nouvelle table Address
-Nous pouvons expliquer cela 
+
+ETAPE 18 :
+Hibernate est un outil ORM qui nous permet d'interagir avec une base de données en utilisant des objets Java.
+Hibernate est utilisée pour générer une table. En effet, les champs sont annotés par : 
+@Id pour la clé primaire,@Column pour les colonnes, et @ManyToOne pour les relations. 
 
 ETAPE 20:
 Select * from address;
 ID  	CONTENT  	CREATION  
 (no rows, 3 ms)
-
 Non nous ne voyons pas tout le contenu de data.sql (voir ci-dessus)
 
 
@@ -60,8 +68,9 @@ Elle peut être placée sur un constructeur, une méthode ou directement sur un 
 Le Spring Framework va chercher le bean du contexte d’application dont le type 
 est applicable à chaque paramètre du constructeur, aux paramètres de la méthode ou à l’attribut. 
 
-
 ETAPE 26 :
 select * from address;
 ID  	CONTENT  	CREATION  	NOM  
+
+ETAPE 30 :
 
