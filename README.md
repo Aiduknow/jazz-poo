@@ -1,7 +1,7 @@
 Le but de ce TP est de mettre en pratique les différentes connaissances acquises durant les séances de TD et TP.
 Le lien du github est : git@github.com:Aiduknow/jazz-poo.git
 
-Réponses aux différenets questions : 
+Réponses aux différentes questions : 
 
 ETAPE 5:
 1) Spring Web : est une partie du framework Spring qui permet de créer des applications web basées sur Java.
@@ -74,3 +74,9 @@ ID  	CONTENT  	CREATION  	NOM
 
 ETAPE 30 :
 
+
+PARTIE 2 : 
+Pour utiliser l'application MeteoConcept nous devons absolument avoir une clé API valide.
+Nous devons également appeler l'url suivante : https://api.meteo-concept.com/api/forecast/daily
+La méthode HTTP utilisée est la méthode GET
+Les paramètres d'appel doivent être effectué de la manière suivante : "https://api.meteo-concept.com/api/forecast/daily token="+METEO_API_TOKEN+"&latlng="+latitude+","+longitude+"&world=false&start=0&end=1"
