@@ -76,7 +76,7 @@ ETAPE 30 :
 
 
 PARTIE 2 : 
-Pour utiliser l'application MeteoConcept nous devons absolument avoir une clé API valide.
-Nous devons également appeler l'url suivante : https://api.meteo-concept.com/api/forecast/daily
-La méthode HTTP utilisée est la méthode GET
+Pour utiliser l'application MeteoConcept nous devons absolument avoir une clé API valide.\n
+Nous devons également appeler l'url suivante : https://api.meteo-concept.com/api/forecast/daily \n
+La méthode HTTP utilisée est la méthode GET \n
 Les paramètres d'appel doivent être effectué de la manière suivante : "https://api.meteo-concept.com/api/forecast/daily token="+METEO_API_TOKEN+"&latlng="+latitude+","+longitude+"&world=false&start=0&end=1"
